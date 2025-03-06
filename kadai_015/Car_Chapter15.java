@@ -5,7 +5,7 @@ public class Car_Chapter15 {
     private int gear = 1;
     private int speed = 0;
 
-    public void changeGear(final int afterGear) {
+    public void gearChange(final int afterGear) {
         System.out.println("ギア" + this.gear + "から" + afterGear + "に切り替えました");
         this.gear = afterGear;
         this.speed = switch (afterGear) {
